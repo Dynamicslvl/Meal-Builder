@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac5fc2f5e63d944180352db35daf918, type: 3}
+  m_Name: CellulozaFoods
+  m_EditorClassIdentifier: 
+  dataList:
+  - index: 8
+    type: 2
+    name: "B\u01B0\u1EDFi"
+    amount: 1
+    unit: "m\xFAi"
+    nutrients:
+      calo: 20.8
+      lipit: 0
+      glucid: 5.1
+      protein: 0.1
+      celluloza: 0.72
+  - index: 22
+    type: 2
+    name: Cam
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 68.8
+      lipit: 0
+      glucid: 15.5
+      protein: 1.7
+      celluloza: 2.58
+  - index: 23
+    type: 2
+    name: "Canh b\u1EAFp c\u1EA3i"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 37.3
+      lipit: 2.1
+      glucid: 2.8
+      protein: 1.8
+      celluloza: 0.82
+  - index: 24
+    type: 2
+    name: "Canh b\u1EA7u"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 29.699999
+      lipit: 2.1
+      glucid: 1.5
+      protein: 1.2
+      celluloza: 0.52
+  - index: 25
+    type: 2
+    name: "Canh b\xED \u0111ao"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 28.9
+      lipit: 2.1
+      glucid: 1.3
+      protein: 1.2
+      celluloza: 0.52
+  - index: 26
+    type: 2
+    name: "Canh b\xED r\u1EE3"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 42.1
+      lipit: 2.1
+      glucid: 4.6
+      protein: 1.2
+      celluloza: 0.64
+  - index: 27
+    type: 2
+    name: "Canh c\u1EA3i ng\u1ECDt"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 30.099998
+      lipit: 2.1
+      glucid: 1.1
+      protein: 1.7
+      celluloza: 0.9
+  - index: 28
+    type: 2
+    name: Canh chua
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 29.1
+      lipit: 1.1
+      glucid: 2.9
+      protein: 1.9
+      celluloza: 1.19
+  - index: 29
+    type: 2
+    name: "Canh h\u1EB9"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 33.3
+      lipit: 2.1
+      glucid: 0.7
+      protein: 2.9
+      celluloza: 0.35
+  - index: 30
+    type: 2
+    name: "Canh kh\u1ED5 qua h\u1EA7m"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 174.2
+      lipit: 11.4
+      glucid: 7.9
+      protein: 10
+      celluloza: 1.4
+  - index: 31
+    type: 2
+    name: "Canh khoai m\u1EE1"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 50.7
+      lipit: 1.1
+      glucid: 8.7
+      protein: 1.5
+      celluloza: 0.56
+  - index: 32
+    type: 2
+    name: "Canh m\u01B0\u1EDBp"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 28.5
+      lipit: 2.1
+      glucid: 1
+      protein: 1.4
+      celluloza: 0.27
+  - index: 33
+    type: 2
+    name: "Canh rau ng\xF3t"
+    amount: 1
+    unit: "ch\xE9n"
+    nutrients:
+      calo: 29.3
+      lipit: 2.1
+      glucid: 0.7
+      protein: 1.9
+      celluloza: 0.5
+  - index: 39
+    type: 2
+    name: "Ch\xF4m ch\xF4m"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 14.4
+      lipit: 0
+      glucid: 3.3
+      protein: 0.3
+      celluloza: 0.26
+  - index: 43
+    type: 2
+    name: "Chu\u1ED1i s\u1EA5y"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 253.5
+      lipit: 10.7
+      glucid: 37.5
+      protein: 1.8
+      celluloza: 3.57
+  - index: 45
+    type: 2
+    name: "C\xF3c"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 33.6
+      lipit: 0
+      glucid: 7.4
+      protein: 1
+      celluloza: 0.52
+  - index: 50
+    type: 2
+    name: "C\u1EE7 s\u1EAFn"
+    amount: 1
+    unit: "c\u1EE7"
+    nutrients:
+      calo: 52
+      lipit: 0
+      glucid: 11.1
+      protein: 1.9
+      celluloza: 13
+  - index: 56
+    type: 2
+    name: "\u0110u \u0111\u1EE7"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 125.200005
+      lipit: 0
+      glucid: 27.7
+      protein: 3.6
+      celluloza: 2.16
+  - index: 57
+    type: 2
+    name: "D\u01B0a h\u1EA5u"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 21.1
+      lipit: 0.3
+      glucid: 3
+      protein: 1.6
+      celluloza: 0.65
+  - index: 63
+    type: 2
+    name: "H\u1ED3ng \u0111\u1ECF"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 24.8
+      lipit: 0
+      glucid: 5.6
+      protein: 0.6
+      celluloza: 2.25
+  - index: 66
+    type: 2
+    name: "Kh\u1EBF"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 9.2
+      lipit: 0
+      glucid: 1.9
+      protein: 0.4
+      celluloza: 1.58
+  - index: 71
+    type: 2
+    name: "Khoai t\xE2y"
+    amount: 1
+    unit: "\u0111\u0129a nh\u1ECF"
+    nutrients:
+      calo: 131.7
+      lipit: 8.9
+      glucid: 12.3
+      protein: 0.6
+      celluloza: 1.58
+  - index: 72
+    type: 2
+    name: "Khoai t\u1EEB"
+    amount: 1
+    unit: "c\u1EE7"
+    nutrients:
+      calo: 98.4
+      lipit: 0
+      glucid: 23
+      protein: 1.6
+      celluloza: 1.28
+  - index: 73
+    type: 2
+    name: "L\xEA"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 91.6
+      lipit: 0.4
+      glucid: 20.6
+      protein: 1.4
+      celluloza: 1.21
+  - index: 75
+    type: 2
+    name: "M\u1EADn \u0111\u1ECF"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 11.2
+      lipit: 0
+      glucid: 2.5
+      protein: 0.3
+      celluloza: 12
+  - index: 76
+    type: 2
+    name: "M\xE3ng c\u1EA7u ta"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 56
+      lipit: 0
+      glucid: 12.6
+      protein: 1.4
+      celluloza: 0.7
+  - index: 77
+    type: 2
+    name: "M\xE3ng c\u1EA7u xi\xEAm"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 40
+      lipit: 0
+      glucid: 8.6
+      protein: 1.4
+      celluloza: 1.52
+  - index: 78
+    type: 2
+    name: "M\u0103ng c\u1EE5t"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 14.4
+      lipit: 0
+      glucid: 3.5
+      protein: 0.1
+      celluloza: 0.28
+  - index: 79
+    type: 2
+    name: "M\xEDt ngh\u1EC7"
+    amount: 1
+    unit: "m\xFAi"
+    nutrients:
+      calo: 11.2
+      lipit: 0
+      glucid: 2.5
+      protein: 0.3
+      celluloza: 0.22
+  - index: 80
+    type: 2
+    name: "M\xEDt say"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 109.1
+      lipit: 2.7
+      glucid: 19.4
+      protein: 1.8
+      celluloza: 4.42
+  - index: 81
+    type: 2
+    name: "M\xEDt t\u1ED1 n\u1EEF"
+    amount: 1
+    unit: "m\xFAi"
+    nutrients:
+      calo: 9.6
+      lipit: 0
+      glucid: 2.2
+      protein: 0.2
+      celluloza: 0.19
+  - index: 84
+    type: 2
+    name: "Nh\xE3n th\u01B0\u1EDDng"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 4
+      lipit: 0
+      glucid: 0.9
+      protein: 0.1
+      celluloza: 0.08
+  - index: 85
+    type: 2
+    name: "Nh\xE3n ti\xEAu"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 3.2
+      lipit: 0
+      glucid: 0.4
+      protein: 0.4
+      celluloza: 0.04
+  - index: 95
+    type: 2
+    name: "Th\u1EA1ch d\u1EEBa"
+    amount: 1
+    unit: "c\xE1i"
+    nutrients:
+      calo: 17.2
+      lipit: 0
+      glucid: 3.9
+      protein: 0.4
+      celluloza: 0.8

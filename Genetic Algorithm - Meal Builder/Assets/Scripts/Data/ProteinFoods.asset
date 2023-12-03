@@ -1,0 +1,488 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac5fc2f5e63d944180352db35daf918, type: 3}
+  m_Name: ProteinFoods
+  m_EditorClassIdentifier: 
+  dataList:
+  - index: 5
+    type: 1
+    name: "B\xF2 b\xEDa"
+    amount: 1
+    unit: "cu\u1ED1n"
+    nutrients:
+      calo: 30.900002
+      lipit: 1.4333334
+      glucid: 2.5666666
+      protein: 1.9333334
+      celluloza: 0.15666667
+  - index: 9
+    type: 1
+    name: "C\xE1 b\u1EA1c m\xE1 chi\xEAn"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 134.3
+      lipit: 9.1
+      glucid: 0
+      protein: 13.1
+      celluloza: 0
+  - index: 10
+    type: 1
+    name: "C\xE1 b\u1EA1c m\xE1 kho"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 166.90001
+      lipit: 5.3
+      glucid: 8.7
+      protein: 21.1
+      celluloza: 0.04
+  - index: 11
+    type: 1
+    name: "C\xE1 ch\xE9p ch\u01B0ng t\u01B0\u01A1ng"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 156.59999
+      lipit: 6.6
+      glucid: 7.9
+      protein: 16.4
+      celluloza: 0.11
+  - index: 12
+    type: 1
+    name: "C\xE1 chim chi\xEAn"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 110.4
+      lipit: 7.6
+      glucid: 0
+      protein: 10.5
+      celluloza: 0
+  - index: 13
+    type: 1
+    name: "C\xE1 c\u01A1m l\u0103n b\u1ED9t chi\xEAn"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 195.29999
+      lipit: 9.7
+      glucid: 17.3
+      protein: 9.7
+      celluloza: 0.15
+  - index: 14
+    type: 1
+    name: "C\xE1 \u0111\u1ED1i chi\xEAn"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 108.5
+      lipit: 7.7
+      glucid: 0
+      protein: 9.8
+      celluloza: 0
+  - index: 15
+    type: 1
+    name: "C\xE1 \u0111\u1ED1i kho"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 73.7
+      lipit: 1.7
+      glucid: 4.4
+      protein: 10.2
+      celluloza: 0.02
+  - index: 16
+    type: 1
+    name: "C\xE1 h\u1EE7 kho"
+    amount: 1
+    unit: "l\xE1t"
+    nutrients:
+      calo: 184.5
+      lipit: 9.7
+      glucid: 8.7
+      protein: 15.6
+      celluloza: 0.04
+  - index: 17
+    type: 1
+    name: "C\xE1 l\xF3c chi\xEAn"
+    amount: 1
+    unit: "l\xE1t"
+    nutrients:
+      calo: 169.4
+      lipit: 12.2
+      glucid: 0
+      protein: 14.9
+      celluloza: 0
+  - index: 18
+    type: 1
+    name: "C\xE1 l\xF3c kho"
+    amount: 1
+    unit: "l\xE1t"
+    nutrients:
+      calo: 131.8
+      lipit: 3.8
+      glucid: 8.7
+      protein: 15.7
+      celluloza: 0.04
+  - index: 19
+    type: 1
+    name: "C\xE1 ng\u1EEB kho"
+    amount: 1
+    unit: "l\xE1t"
+    nutrients:
+      calo: 121.8
+      lipit: 1.8
+      glucid: 8.7
+      protein: 17.7
+      celluloza: 0.04
+  - index: 20
+    type: 1
+    name: "C\xE1 tr\xEA chi\xEAn"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 219.7
+      lipit: 18.9
+      glucid: 0
+      protein: 12.4
+      celluloza: 0
+  - index: 21
+    type: 1
+    name: "C\xE1 vi\xEAn kho"
+    amount: 1
+    unit: "vi\xEAn nh\u1ECF"
+    nutrients:
+      calo: 9.96
+      lipit: 0.28
+      glucid: 0.35
+      protein: 1.51
+      celluloza: 0.0009999999
+  - index: 34
+    type: 1
+    name: "Ch\u1EA3 c\xE1 th\xE1c l\xE1c chi\xEAn"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 133.3
+      lipit: 9.7
+      glucid: 0.2
+      protein: 11.3
+      celluloza: 0.04
+  - index: 36
+    type: 1
+    name: "Ch\u1EA3 l\u1EE5a kho"
+    amount: 1
+    unit: khoanh
+    nutrients:
+      calo: 102.2
+      lipit: 4.6
+      glucid: 3.5
+      protein: 11.7
+      celluloza: 0.01
+  - index: 37
+    type: 1
+    name: "Ch\u1EA3 tr\u1EE9ng ch\u01B0ng"
+    amount: 1
+    unit: "l\xE1t"
+    nutrients:
+      calo: 194.3
+      lipit: 13.9
+      glucid: 6
+      protein: 11.3
+      celluloza: 0.35
+  - index: 38
+    type: 1
+    name: "Chim c\xFAt chi\xEAn b\u01A1"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 203.7
+      lipit: 16.9
+      glucid: 2.3
+      protein: 10.6
+      celluloza: 0.04
+  - index: 47
+    type: 1
+    name: "C\u01A1m t\u1EA5m ch\u1EA3"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 233.7
+      lipit: 18.1
+      glucid: 0.7
+      protein: 17
+      celluloza: 1.03
+  - index: 51
+    type: 1
+    name: "\u0110\u1EADu h\u0169 d\u1ED3n th\u1ECBt"
+    amount: 1
+    unit: "mi\u1EBFng l\u1EDBn"
+    nutrients:
+      calo: 328.2
+      lipit: 25.8
+      glucid: 5.3
+      protein: 18.7
+      celluloza: 0.58
+  - index: 53
+    type: 1
+    name: "\u0110\u1EADu ph\u1ED9ng n\u1EA5u"
+    amount: 1
+    unit: lo
+    nutrients:
+      calo: 395.1
+      lipit: 30.7
+      glucid: 10.7
+      protein: 19
+      celluloza: 1.73
+  - index: 54
+    type: 1
+    name: "\u0110\u1EADu ph\u1ED9ng rang"
+    amount: 1
+    unit: "\u0111\u0129a nh\u1ECF"
+    nutrients:
+      calo: 572.5
+      lipit: 44.5
+      glucid: 15.5
+      protein: 27.5
+      celluloza: 2.5
+  - index: 55
+    type: 1
+    name: "\u0110\u1EADu ph\u1ED9ng rang mu\u1ED1i"
+    amount: 1
+    unit: "\u0111\u0129a nh\u1ECF"
+    nutrients:
+      calo: 617.5
+      lipit: 49.5
+      glucid: 15.5
+      protein: 27.5
+      celluloza: 2.5
+  - index: 58
+    type: 1
+    name: "G\xE0 kho g\u1EEBng"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 300.7
+      lipit: 19.1
+      glucid: 10.3
+      protein: 21.9
+      celluloza: 0.91
+  - index: 59
+    type: 1
+    name: "G\xE0 r\xF4 ti"
+    amount: 1
+    unit: "c\xE1i \u0111\xF9i"
+    nutrients:
+      calo: 300.3
+      lipit: 23.1
+      glucid: 2.8
+      protein: 20.3
+      celluloza: 0
+  - index: 60
+    type: 1
+    name: "G\xE0 x\xE0o x\u1EA3 \u1EDBt"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 272.3
+      lipit: 19.1
+      glucid: 4.7
+      protein: 20.4
+      celluloza: 0
+  - index: 61
+    type: 1
+    name: "Gan heo x\xE0o"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 200.09999
+      lipit: 9.7
+      glucid: 3.4
+      protein: 24.8
+      celluloza: 0.15
+  - index: 64
+    type: 1
+    name: "H\u1ED9t v\u1ECBt l\u1ED9n"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 98.3
+      lipit: 6.7
+      glucid: 2.2
+      protein: 7.3
+      celluloza: 0
+  - index: 65
+    type: 1
+    name: "H\u1ED9t v\u1ECBt mu\u1ED1i"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 90.6
+      lipit: 7
+      glucid: 0.5
+      protein: 6.4
+      celluloza: 0
+  - index: 74
+    type: 1
+    name: "M\u1EAFm ch\u01B0ng"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 194.1
+      lipit: 13.7
+      glucid: 4.4
+      protein: 13.3
+      celluloza: 0.37
+  - index: 82
+    type: 1
+    name: "M\u1EF1c x\xE0o th\u1EADp c\u1EA9m"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 136.7
+      lipit: 5.9
+      glucid: 3.5
+      protein: 17.4
+      celluloza: 0.58
+  - index: 83
+    type: 1
+    name: "M\u1EF1c x\xE0o x\u1EA3 \u1EDBt"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 184.7
+      lipit: 6.7
+      glucid: 0.1
+      protein: 31
+      celluloza: 0.03
+  - index: 86
+    type: 1
+    name: "Ph\xF4 mai b\xF2 c\u01B0\u1EDDi"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 67
+      lipit: 5.4
+      glucid: 0
+      protein: 4.6
+      celluloza: 0
+  - index: 90
+    type: 1
+    name: "S\u1EEFa \u0111\u1EADu n\xE0nh Tribeco"
+    amount: 1
+    unit: "h\u1ED9p"
+    nutrients:
+      calo: 110.1
+      lipit: 2.9
+      glucid: 15
+      protein: 6
+      celluloza: 0
+  - index: 92
+    type: 1
+    name: "S\u01B0\u1EDDn n\u01B0\u1EDBng"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 110.9
+      lipit: 7.3
+      glucid: 1
+      protein: 10.3
+      celluloza: 0.01
+  - index: 93
+    type: 1
+    name: "S\u01B0\u1EDDn ram"
+    amount: 1
+    unit: "mi\u1EBFng"
+    nutrients:
+      calo: 155.7
+      lipit: 11.3
+      glucid: 2.6
+      protein: 10.9
+      celluloza: 0.06
+  - index: 94
+    type: 1
+    name: "T\xE9p rang"
+    amount: 1
+    unit: con
+    nutrients:
+      calo: 10.01
+      lipit: 0.65
+      glucid: 0.48000002
+      protein: 0.56
+      celluloza: 0.0019999999
+  - index: 96
+    type: 1
+    name: "Th\u1ECBt heo quay"
+    amount: 1
+    unit: "\u0111\u0129a"
+    nutrients:
+      calo: 144.8
+      lipit: 12
+      glucid: 0
+      protein: 9.2
+      celluloza: 0
+  - index: 97
+    type: 1
+    name: "Tr\u1EE9ng c\xFAt"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 17.2
+      lipit: 1.2
+      glucid: 0.1
+      protein: 1.5
+      celluloza: 0
+  - index: 98
+    type: 1
+    name: "Tr\u1EE9ng g\xE0 M\u1EF9"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 81.299995
+      lipit: 5.7
+      glucid: 0.2
+      protein: 7.3
+      celluloza: 0
+  - index: 99
+    type: 1
+    name: "Tr\u1EE9ng g\xE0 ta"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 58.5
+      lipit: 4.1
+      glucid: 0.2
+      protein: 5.2
+      celluloza: 0
+  - index: 100
+    type: 1
+    name: "Tr\u1EE9ng v\u1ECBt b\u1EAFc th\u1EA3o"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 89.700005
+      lipit: 7.3
+      glucid: 0
+      protein: 6
+      celluloza: 0
+  - index: 101
+    type: 1
+    name: "Tr\u1EE9ng v\u1ECBt lu\u1ED9c"
+    amount: 1
+    unit: "tr\xE1i"
+    nutrients:
+      calo: 90.6
+      lipit: 7
+      glucid: 0.5
+      protein: 6.4
+      celluloza: 0
