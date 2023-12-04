@@ -338,10 +338,10 @@ public class GeneticAlgorithm : Singleton<GeneticAlgorithm>
     public void SetupBounds()
     {
         bounds = new Vector2[numberOfObjectives + 1];
-        bounds[1].y = 10000;
+        bounds[1].y = 6000;
         for (int i = 2; i <= numberOfObjectives; i++)
         {
-            bounds[i].y = 1000;
+            bounds[i].y = 800;
         }
     }
 

@@ -589,7 +589,7 @@ MonoBehaviour:
     type: 1
     name: "\u0110\u1EADu ph\u1ED9ng n\u1EA5u"
     amount: 1
-    unit: lo
+    unit: "l\u1ECD"
     nutrients:
       calo: 395.1
       lipit: 30.7

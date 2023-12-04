@@ -11,6 +11,7 @@ public static class MealArranger
     private static bool[] visited;
     private static float minCaloDifference;
     private static float averageCalo;
+    private static int count = 0;
 
     public static int NumberOfMeals => GeneticAlgorithm.Instance.numberOfDays;
 
@@ -22,6 +23,7 @@ public static class MealArranger
         orders = new List<int>();
         visited = new bool[3 * NumberOfMeals];
         minCaloDifference = float.PositiveInfinity;
+        count = 0;
         FindBestOrders();
         PrintOrders(bestOrders);
     }
@@ -72,6 +74,7 @@ public static class MealArranger
     {
         if (orders.Count == dishes.Count)
         {
+            count++;
             float caloDifference = GetCaloDifference(orders);
             if (caloDifference < minCaloDifference)
             {

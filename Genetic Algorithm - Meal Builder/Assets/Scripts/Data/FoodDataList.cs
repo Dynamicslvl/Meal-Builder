@@ -146,4 +146,9 @@ public class Nutrients
         nutrients.celluloza = FastMath.Abs(me.celluloza);
         return nutrients;
     }
+
+    public override string ToString()
+    {
+        return $"(Calo: {calo}, Lipit: {lipit}, Glucid: {glucid}, Protein: {protein}, Celluloza: {celluloza})";
+    }
 }
